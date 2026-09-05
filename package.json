@@ -1,0 +1,23 @@
+{
+  "name": "parabank-playwright-automation",
+  "version": "1.0.0",
+  "description": "Next-generation web automation combining Playwright's speed with AI-driven smart locators, automated test generation, and intelligent assertions in JavaScript.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monwarsiddiq/ParaBank-Playwright-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/monwarsiddiq/ParaBank-Playwright-Automation/issues"
+  },
+  "homepage": "https://github.com/monwarsiddiq/ParaBank-Playwright-Automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.4.1"
+  }
+}
