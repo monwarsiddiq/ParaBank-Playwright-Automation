@@ -1,8 +1,13 @@
 
 # Playwright
 node_modules/
+.auth/
 /test-results/
 /playwright-report/
+results/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+.env
+.goose/bin
+.claude/

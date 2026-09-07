@@ -4,6 +4,14 @@
   "description": "Next-generation web automation combining Playwright's speed with AI-driven smart locators, automated test generation, and intelligent assertions in JavaScript.",
   "main": "index.js",
   "scripts": {},
+    "test":         "playwright test",
+    "test:ui":      "playwright test --ui",
+    "test:headed":  "playwright test --headed",
+    "test:banking": "playwright test --project=banking-chromium",
+    "test:api":     "playwright test --project=api",
+    "test:debug":   "playwright test --debug",
+    "report":       "playwright show-report",
+    "codegen":      "playwright codegen https://para.testar.org/parabank/index.htm",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/monwarsiddiq/ParaBank-Playwright-Automation.git"

@@ -36,7 +36,7 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    baseURL: process.env.BASE_URL || 'https://para.testar.org',
+    baseURL: process.env.BASE_URL || 'https://parabank.parasoft.com',
     trace: 'on-first-retry',     // the black box, only when it matters
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
