@@ -9,5 +9,3 @@ results/
 /playwright/.cache/
 /playwright/.auth/
 .env
-.goose/bin
-.claude/
